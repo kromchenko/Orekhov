@@ -1,0 +1,277 @@
+body a, p{
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Меню 1 начало */
+.menu1{
+    width: 100%;
+    background-color: #e9eff3;
+    margin-bottom: 0px;
+}
+.logo{
+    margin-right: 40px;
+}
+.tel{
+    margin-top: 10px;
+}
+.search{
+    margin-top: 10px;
+}
+.basket{
+    margin-top: 10px;
+}
+.tel p{
+   font-size: 10px;
+}
+.tel a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.social{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(3, 3, 128);
+    padding: 20px;
+    margin-right: 40px;
+}
+.social i{
+    color: #253b6e;
+}
+/* Меню  1 конец */
+
+/* Меню 2 начало */
+.menu2 ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.menu2 a{
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+/* Меню 2 конец */
+
+/* Меню 3 начало */
+.menu3 ul{
+    width: 100%;
+    display: table; 
+    justify-content: space-around;
+    align-items: center;
+    background: #1f5f8b;
+    height: auto;
+}
+.menu3 li{
+    display: table-cell;
+    width: 16%;
+    vertical-align: middle;
+    list-style-type: none;
+}
+.menu3 img{
+    float: left;
+}
+.menu3 a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+}
+/* Меню 3 конец */
+
+/* Слайдер вверх начало */
+.carousel{
+    margin-top: -10px;
+    width: 100%;
+}
+.slide1{
+    border: 1px solid white;
+    width: 40%;
+    background: rgb(233, 233, 233, 0.25);
+    border-radius: 10px;
+}
+.slide2{
+    border: 1px solid white;
+    width: 40%;
+    background: rgb(233, 233, 233, 0.25);
+    border-radius: 10px;
+}
+.item active img{
+    position: relative;
+}
+.blok1{
+    position: absolute;
+    left: 150px;
+    bottom: 80px;
+}
+.blok2{
+    position: absolute;
+    left: 150px;
+    bottom: 80px;
+}
+.podrobnosri{
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+}
+/* Конец слайдера верхнего */
+
+/* Контент - популярные товары */
+.content p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cena{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.appellation{
+    text-align: center;
+}
+.bastet{
+    text-align: center;
+}
+/* Конец популярных товаров */
+
+/* Начало Преимущества */
+.super{
+    background: #e9eff3;
+    width: 100%;
+    height: 200px;
+}
+.best{
+    margin-top: 10px;
+}
+.superblock{
+    width: 100%;
+    height: 40px;
+    background: #e9eff3;
+    border: 2px solid white;
+}
+.list p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+    margin-top: 2px;
+}
+.list{
+    position: relative;
+    margin-top: 50px;
+}
+.list img{
+    float: left;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+}
+/* Конец Преимущества */
+
+/* Начало О Компании */
+.textferm p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0px;
+}
+/* Конец О Компании */
+
+/* Начало Успехи */
+.qwerty h2{
+    text-align: center;
+    font-weight: bold;
+    color: #1f5f8b;
+}
+.qwerty p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+/* Конец Успехи */
+
+/* Слайдер 2 Начало */
+.textotziv p{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+.fio p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+}
+/* Слайдер 2 конец */
+
+/* Начало Новостей */
+.news0 p{
+    text-align: center;
+    font-size: 30px;
+}
+.data{
+    font-size: 12px;
+    font-weight: bold;
+}
+.news1{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.news2{
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+}
+.cena i{
+    font-size: 20px;
+    color: #1f5f8b;
+}
+.cena a{
+    text-decoration: none;
+    color: black;
+}
+/* Конец новостей */
+
+/* Футер начало */
+.footerbar{
+    width: 100%;
+    background: #253b6e;
+    padding-top: 10px;
+}
+/* Футер конец */
+
+/* Дно */
+.footerend{
+    text-align: center;
+}
+.textfooter{
+    margin-top: 20px;
+}
+.zagolovokfooter{
+    font-weight: bold;
+    font-size: 18px;
+    color: #5187ac !important;
+}
+.footer p, span, a{
+    color: white;
+}
+.fb_f{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.insta_f{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.youtube_f{
+    font-size: 30px;
+}
+/* Дно */
